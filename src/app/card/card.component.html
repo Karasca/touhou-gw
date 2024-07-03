@@ -1,5 +1,5 @@
 <div [ngClass]="{'card-container-flip': flipped}" class="card-container" (click)="click()">
-    <div class="card-inner">
+    <div #cardBg class="card-inner" [ngClass]="bg" >
         <div class="card-front">
             <img #charImg [src]="image" >
         </div>

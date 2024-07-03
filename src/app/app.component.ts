@@ -41,9 +41,10 @@ export class AppComponent implements OnInit{
     
   }
 
-  // ngAfterViewInit(){
-  //   this.unFlipCards();
-  // }
+  ngAfterViewInit(){
+    //this.unFlipCards();
+    console.log(this.characterList$);
+  }
 
   unFlipCards(){
     for(let card of this.appCards){

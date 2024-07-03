@@ -6,6 +6,118 @@
     padding: 5px;
     display:block;
 }
+
+.eosd {
+    background-color: rgb(255, 92, 92);
+}
+
+.pcb {
+    background-color:rgb(255, 222, 242);
+}
+
+.iamp {
+    background-color: rgb(220, 165, 83);
+}
+
+.in {
+    background-color:rgb(187, 43, 235);
+}
+
+.pofv {
+    background-color:rgb(127, 182, 136);
+}
+
+.stb {
+    background-color:rgb(83, 0, 0);
+}
+
+.mof {
+    background-color:rgb(228, 130, 11);
+}
+
+.swr {
+    background-color:rgb(68, 192, 226);
+}
+
+.sa {
+    background-color:rgb(255, 205, 40);
+}
+
+.ufo {
+    background-color:rgb(68, 113, 226);
+}
+
+.hsts {
+    background-color:rgb(63, 37, 6);
+}
+
+.ds {
+    background-color:rgb(255, 119, 228);
+}
+
+.gfw {
+    background-color:rgb(107, 221, 244);
+}
+
+.td {
+    background-color:rgb(179, 238, 211);
+}
+
+.hm {
+    background-color:rgb(227, 177, 235);
+}
+
+.ddc {
+    background-color:rgb(225, 138, 154);
+}
+
+.isc {
+    background-color:rgb(137, 73, 84);
+}
+
+.ulil {
+    background-color:rgb(71, 116, 72);
+}
+
+.lolk {
+    background-color:rgb(92, 68, 100);
+}
+
+.aocf {
+    background-color:rgb(192, 145, 45);
+}
+
+.hsifs {
+    background-color:rgb(56, 187, 62);
+}
+
+.vd {
+    background-color:rgb(162, 79, 201);
+}
+
+.wbawc {
+    background-color:rgb(255, 0, 0);
+}
+
+.sfw {
+    background-color:rgb(189, 107, 0);
+}
+
+.um {
+    background-color:rgb(255, 232, 104);
+}
+
+.hbm {
+    background-color:rgb(216, 72, 50);
+}
+
+.udoalg {
+    background-color:rgb(9, 105, 14);
+}
+
+.default-color {
+    background-color: rgb(112, 112, 112);
+}
   
 /* This container is needed to position the front and back side */
 .card-inner {
@@ -15,7 +127,7 @@
     text-align: center;
     transition: transform 0.6s, background-position 0s ease;
     transform-style: preserve-3d;
-    background-color:rgb(255, 222, 242);
+    /*background-color:rgb(255, 222, 242);*/
     
     background-repeat: no-repeat;
     background-position: 0 0, 0 0;
@@ -25,29 +137,29 @@
 
     background-image: -webkit-linear-gradient(
     top left,
-    rgba(255, 255, 255, 0.2) 0%,
-    rgba(255, 255, 255, 0.2) 37%,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.1) 37%,
     rgba(255, 255, 255, 0.8) 45%,
     rgba(255, 255, 255, 0.0) 50%
     );
     background-image: -moz-linear-gradient(
     0 0,
-    rgba(255, 255, 255, 0.2) 0%,
-    rgba(255, 255, 255, 0.2) 37%,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.1) 37%,
     rgba(255, 255, 255, 0.8) 45%,
     rgba(255, 255, 255, 0.0) 50%
     );    
     background-image: -o-linear-gradient(
     0 0,
-    rgba(255, 255, 255, 0.2) 0%,
-    rgba(255, 255, 255, 0.2) 37%,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.1) 37%,
     rgba(255, 255, 255, 0.8) 45%,
     rgba(255, 255, 255, 0.0) 50%
     );
     background-image: linear-gradient(
     0 0,
-    rgba(255, 255, 255, 0.2) 0%,
-    rgba(255, 255, 255, 0.2) 37%,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.1) 37%,
     rgba(255, 255, 255, 0.8) 45%,
     rgba(255, 255, 255, 0.0) 50%
     );
@@ -87,7 +199,7 @@
 .card-front {
     color: black;
     outline: 5px solid black;
-    outline-offset: -5px;
+    outline-offset: -4px;
 }
 
 /* Style the back side */
@@ -95,6 +207,6 @@
     color: white;
     transform: rotateY(180deg);
     outline: 5px solid black;
-    outline-offset: -5px;
+    outline-offset: -4px;
 }
 

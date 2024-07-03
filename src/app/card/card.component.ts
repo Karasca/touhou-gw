@@ -13,6 +13,7 @@ import { AfterViewInit, Component, ElementRef, HostBinding, HostListener, Input,
 export class CardComponent implements AfterViewInit {
   @Input() firstName = "";
   @Input() id = 0;
+  @Input() bg = 'default-color';
   //@Input() familyName = "";
   //@Input() possessive = false;
   @Input() image = 'assets/images/chara/';

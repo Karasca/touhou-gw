@@ -177,7 +177,7 @@
     <!-- @for (character of characterList$; track character.firstName) {
     } -->
     
-    <app-card #appCard *ngFor="let character of characterList$ | async" @fadeIn [firstName]="character.firstName" [image]="'assets/images/chara/'+character.firstName +'.webp' | lowercase" [id]="character.id"/>
+    <app-card #appCard *ngFor="let character of characterList$ | async" @fadeIn [firstName]="character.firstName" [image]="'assets/images/chara/'+character.firstName +'.webp' | lowercase" [id]="character.id" [bg]="character.WorkAbbreviation | lowercase"/>
     
     <!-- <div class="left-side">
       <svg
