@@ -1,0 +1,12 @@
+<div class="container">
+    <div>
+        <img [src]="character != null ? ('assets/images/chara/'+character.firstName +'.webp' | lowercase) : 'assets/images/back.png' | lowercase">
+        <h2>{{character?.firstName}} {{character?.familyName}} </h2>
+        <h2>{{character?.familyNameJP}} {{character?.firstNameJP}}</h2>
+        <h2>{{character?.familyNameR}} {{character?.firstNameR}}</h2>
+
+    </div>
+    
+    <button class="button-68" (click)="roll()">Roll</button>
+    <h1>{{rollTime}}</h1>
+</div>

@@ -1,0 +1,10 @@
+<div class="buttons">
+    <button (click)="unFlipCards()">Unflip All</button>
+    <button (click)="flipCards()">Flip All</button>
+    <button class="button-roller" (click)="goTo('/roller')">Character Roller</button>
+  </div>
+<div class="content">
+    
+    <app-card #appCard *ngFor="let character of characterList$ | async" @fadeIn [firstName]="character.firstName" [image]="'assets/images/chara/'+character.firstName +'.webp' | lowercase" [id]="character.id" [bg]="character.WorkAbbreviation | lowercase"/>
+  
+</div>
