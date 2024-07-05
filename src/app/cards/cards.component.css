@@ -63,3 +63,11 @@ button {
   .buttons {
     padding: 5px;
   }
+
+  .credit {
+    color:#4bd071;
+  }
+
+  .credit a{
+    color:#9cc2a7;
+  }
