@@ -16,6 +16,7 @@ export class RollerComponent {
   dataReady: boolean = false;
   rollTime: Date = new Date;
   character: Character | undefined;
+  rolls: number = 0;
 
   constructor(private httpService: HttpService){
     
@@ -38,6 +39,7 @@ export class RollerComponent {
       );
 
     this.rollTime = new Date;
+    this.rolls++;
   }
 
 }
