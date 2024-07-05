@@ -210,3 +210,36 @@
     outline-offset: -4px;
 }
 
+@media (width <= 2440px) {
+    .card-container {
+        width: 82px;
+        height: 102px;
+    }
+
+    .card-front img {
+        width: 82px;
+        height: 102px;
+    }
+
+    .card-back img {
+        width: 82px;
+        height: 102px;
+    }
+  }
+
+  @media (width < 1700px) {
+    .card-container {
+        width: 65px;
+        height: 82px;
+    }
+
+    .card-front img {
+        width: 65px;
+        height: 82px;
+    }
+
+    .card-back img {
+        width: 65px;
+        height: 82px;
+    }
+  }
